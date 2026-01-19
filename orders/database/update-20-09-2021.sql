@@ -1,0 +1,1 @@
+ALTER TABLE `core_offers` ADD `payout` INT(11) NULL DEFAULT '0' AFTER `cost`, ADD `payout_type` VARCHAR(20) NULL DEFAULT 'fixed' AFTER `payout`;

@@ -1,0 +1,1 @@
+ALTER TABLE `core_offers` ADD `offer_link` TEXT NULL AFTER `name`;
